@@ -2,7 +2,7 @@
 ## What is this project?
 This is a re-creation the overpriced Spotify display.
 ## Why did I make this project?
-The original is too expensive, and is a very fun project.
+The original is too expensive, and this is a very fun project.
 ## Pictures!
 <img width="1150" height="694" alt="Screenshot 2026-03-25 152109" src="https://github.com/user-attachments/assets/0d1b65f1-fcdf-4c4f-a924-b4d742682020" />
 <img width="1919" height="1079" alt="Screenshot 2026-03-25 151139" src="https://github.com/user-attachments/assets/63c53343-846d-4e55-9d85-663f8879eb01" />
