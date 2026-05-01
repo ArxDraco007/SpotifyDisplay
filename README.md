@@ -1,13 +1,22 @@
 # SpotifyDisplay
 ## What is this project?
-This is a recreation of the overpriced Spotify display.
+This is a recreation of the overpriced Spotify display, and it has features for YT Music and locally stored songs.
 ## Why did I make this project?
 The original is too expensive, and this is a very fun project.
 ## Pictures!
+
+### The Code - 
+
 <img width="1919" height="1079" alt="Screenshot 2026-04-15 215934" src="https://github.com/user-attachments/assets/aa862642-12f3-463d-a0c4-76bfa6fc1219" />
 <img width="1919" height="1079" alt="Screenshot 2026-04-15 215938" src="https://github.com/user-attachments/assets/53dd8fb3-cbec-4f95-b347-1376139097c7" />
+
+### The CAD - 
+
 <img width="1919" height="1078" alt="Screenshot 2026-04-30 104950" src="https://github.com/user-attachments/assets/3f708f68-7e1f-4175-9d9d-8ce4475c956d" />
 <img width="939" height="636" alt="Screenshot 2026-04-30 105559" src="https://github.com/user-attachments/assets/68b331fb-4004-47f1-bab8-49f42fb98899" />
+
+### The Wiring Diagram - 
+
 <img width="1425" height="806" alt="WiringDiagram" src="https://github.com/user-attachments/assets/f93078cc-a7a3-4d6f-9e4c-01bbece0686c" />
 
 
