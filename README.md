@@ -6,8 +6,8 @@ The original is too expensive, and this is a very fun project.
 ## Pictures!
 
 ### The Code - 
-
 The connection between the ESP32 and the PC, and the programming for the ESP32.
+
 <img width="1919" height="1079" alt="Screenshot 2026-04-15 215934" src="https://github.com/user-attachments/assets/aa862642-12f3-463d-a0c4-76bfa6fc1219" />
 <img width="1919" height="1079" alt="Screenshot 2026-04-15 215938" src="https://github.com/user-attachments/assets/53dd8fb3-cbec-4f95-b347-1376139097c7" />
 
