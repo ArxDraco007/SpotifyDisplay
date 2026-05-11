@@ -44,7 +44,6 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 ### 2. Assemble the PCB
 - The KiCad project files (`SpotifyPCB.kicad_pcb`, `.kicad_sch`, `.kicad_pro`, `.kicad_prl`) contain the full schematic and PCB layout.
 - Refer to the **Wiring Diagram** above and the schematic for exact pin connections.
-- 
 ### 3. Flash the ESP32
  
 1. Install the [Arduino IDE](https://www.arduino.cc/en/software) and add ESP32 board support (Boards Manager).
