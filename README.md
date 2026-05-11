@@ -56,7 +56,7 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
    const char* pcIP = "192.168.1.47";     
    ```
 4. Select your board (`ESP32S3 Dev Module`) and then upload with the right COM port.
-5. 
+
 ### 4. Set Up the PC Server
  
 The Python script `pc_connect.py` runs a small Flask server on your PC that listens for commands from the ESP32 and translates them into media key presses.
