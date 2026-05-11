@@ -38,39 +38,32 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 ## How to Build
  
 ### 1. 3D Print the Case
-- Open `case.f3d` or `lid.f3d` in Autodesk Fusion 360, or use the `case.step` files in any CAD software/slicer directly.
+- Open case.f3d or lid.f3d in Autodesk Fusion 360, or use the case.step files in any CAD software/slicer directly.
 - Print the case and lid in your filament of choice (PLA works fine). The design has cutouts for the ST7735 display, the Cherry MX switch, and the rotary encoder.
 - Once printed, press the M3x4mm brass heat-set inserts into the screw holes on the case using a soldering iron. This gives you durable metal threads so the lid can be screwed on and off without stripping the plastic.
 ### 2. Assemble the PCB
-- The KiCad project files (`SpotifyPCB.kicad_pcb`, `.kicad_sch`, `.kicad_pro`, `.kicad_prl`) contain the full schematic and PCB layout.
+- The KiCad project files (SpotifyPCB.kicad_pcb, .kicad_sch, .kicad_pro, .kicad_prl) contain the full schematic and PCB layout.
 - Refer to the **Wiring Diagram** above and the schematic for exact pin connections.
 ### 3. Flash the ESP32
  
 1. Install the [Arduino IDE](https://www.arduino.cc/en/software) and add ESP32 board support (Boards Manager).
 2. Install the TFT_eSPI library via the Library Manager.
-3. Open `esp32spotify.cpp` and edit the following lines with your own details:
+3. Open esp32spotify.cpp and edit the following lines with your own details:
    ```cpp
    const char* ssid = "YOUR_WIFI";
    const char* password = "YOUR_PASSWORD";
    const char* pcIP = "192.168.1.47";     
    ```
-4. Select your board (`ESP32S3 Dev Module`) and then upload with the right COM port.
+4. Select your board ESP32S3 Dev Module and then upload with the right COM port.
 
 ### 4. Set Up the PC Server
  
-The Python script `pc_connect.py` runs a small Flask server on your PC that listens for commands from the ESP32 and translates them into media key presses.
+The Python script pc_connect.py runs a small Flask server on your PC that listens for commands from the ESP32 and translates them into media key presses.
  
 1. Install Python.
-2. Install Python dependencies:
-   ```bash
-   pip install flask pyautogui
-   ```
-3. Run the script:
-   ```bash
-   python pc_connect.py
-   ```
-   The server runs on port `5000` and connects from any device on your local network.
- 
+2. Install Python dependencies: pip install flask pyautogui
+3. Run the script: python pc_connect.py
+   The server runs on port 5000 and connects from any device on your local network.
 ---
  
 ## How to Use
