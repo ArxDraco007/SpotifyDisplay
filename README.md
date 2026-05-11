@@ -34,3 +34,57 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 | Cherry MX RGB Switch | Provides user input by completing a connection while pressed | 1 | 5.00 | [View Product](https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/cherry-mx-rgb-switch/?attribute_pa_cherry-mx=black-rgb) | Meckeys |
 | Blue 1.8 Inch ST7735 TFT LCD Module (128×160) | Display for current track and UI elements | 1 | 5.00 | [View Product](https://robu.in/product/blue-1-8-inch-st7735-tft-lcd-module-with-4-io-128160/) | Robu |
 | 7Semi ESP32-S3-Dev-BoardC-1-N4R2 | Core computation, handles images and acts as WiFi bridge | 1 | 11.80 | [View Product](https://7semi.com/esp32-s3-dev-board-wifi-bluetooth-dualusb/) | 7Semi |
+
+## How to Build
+ 
+### 1. 3D Print the Case
+- Open `case.f3d` or `lid.f3d` in Autodesk Fusion 360, or use the `case.step` / `CaseWithLid.step` files in any CAD software / slicer directly.
+- Print the case and lid in your filament of choice (PLA works fine). The design has cutouts for the ST7735 display, the Cherry MX switch, and the rotary encoder.
+- Once printed, press the **M3x4mm brass heat-set inserts** into the screw holes on the case using a soldering iron. This gives you durable metal threads so the lid can be screwed on and off without stripping the plastic.
+### 2. Assemble the PCB
+- The KiCad project files (`SpotifyPCB.kicad_pcb`, `.kicad_sch`, `.kicad_pro`, `.kicad_prl`) contain the full schematic and PCB layout.
+- Refer to the **Wiring Diagram** above and the schematic for exact pin connections.
+- 
+### 3. Flash the ESP32
+ 
+1. Install the [Arduino IDE](https://www.arduino.cc/en/software) and add ESP32 board support (Boards Manager).
+2. Install the TFT_eSPI library via the Library Manager.
+3. Open `esp32spotify.cpp` and edit the following lines with your own details:
+   ```cpp
+   const char* ssid = "YOUR_WIFI";
+   const char* password = "YOUR_PASSWORD";
+   const char* pcIP = "192.168.1.47";     
+   ```
+4. Select your board (`ESP32S3 Dev Module`) and then upload with the right COM port.
+5. 
+### 4. Set Up the PC Server
+ 
+The Python script `pc_connect.py` runs a small Flask server on your PC that listens for commands from the ESP32 and translates them into media key presses.
+ 
+1. Install Python.
+2. Install Python dependencies:
+   ```bash
+   pip install flask pyautogui
+   ```
+3. Run the script:
+   ```bash
+   python pc_connect.py
+   ```
+   The server runs on port `5000` and connects from any device on your local network.
+ 
+---
+ 
+## How to Use
+ 
+Once everything is assembled and both the ESP32 and PC server are running:
+ 
+| Control | Action |
+|---------|--------|
+| **Next Button** (GPIO12) | Skip to next track |
+| **Prev Button** (GPIO13) | Go to previous track |
+| **Play Button** (GPIO14) | Play / Pause |
+| **Rotate Encoder clockwise** | Volume Up |
+| **Rotate Encoder counter-clockwise** | Volume Down |
+| **Press Encoder** (SW) | Play / Pause (same as Play button) |
+ 
+The display shows the current track info fetched in real time over WiFi. It works with **Spotify**, **YouTube Music**, and **locally stored songs** — anything that responds to system media keys on your PC.
