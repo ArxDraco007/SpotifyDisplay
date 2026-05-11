@@ -7,7 +7,8 @@ The original is too expensive, and this is a very fun project.
 ## Pictures!
 ### Zine - 
 
-<img width="1688" height="2588" alt="SpotifyDisplay" src="https://github.com/user-attachments/assets/9f77710a-6dfb-4513-952e-e648a2e8e4a6" />
+<img width="1688" height="2588" alt="SpotifyDisplay (1)" src="https://github.com/user-attachments/assets/734c141c-7e0c-4ed9-8c37-ff012cdb869a" />
+
 
 ### The Code - 
 The connection between the ESP32 and the PC, and the programming for the ESP32.
