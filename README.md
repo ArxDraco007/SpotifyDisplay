@@ -3,7 +3,11 @@
 This is a recreation of the overpriced Spotify display, and it has features for YouTube Music and locally stored songs.
 ## Why did I make this project?
 The original is too expensive, and this is a very fun project.
+
 ## Pictures!
+### Zine - 
+
+<img width="1688" height="2588" alt="SpotifyDisplay" src="https://github.com/user-attachments/assets/9f77710a-6dfb-4513-952e-e648a2e8e4a6" />
 
 ### The Code - 
 The connection between the ESP32 and the PC, and the programming for the ESP32.
