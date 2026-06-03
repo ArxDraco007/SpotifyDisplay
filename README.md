@@ -1,8 +1,8 @@
 # SpotifyDisplay
 ## What is this project?
-This is a recreation of the overpriced Spotify display, and it has features for YouTube Music and locally stored songs.
+This is a recreation of the overpriced Spotify display, and it has features for YouTube Music and locally stored songs. It is made using the ESP32-S3-Dev-BoardC-1-N4R2 for complete control of display, inputs, and Wi-Fi communication, connecting all the parts for them to function. The Display has three programmable buttons. I will be using them for Previous, Pause/Play, and Next. It also has a KY-040 Rotary Encoder Module, which is used for volume up and down. The display is going to be a 1.8" ST7735 TFT LCD Module (128×160 resolution).
 ## Why did I make this project?
-The original is too expensive, and this is a very fun project.
+The original is too expensive, it ranges from 73.04 to 250 dollars. This is a much better version, which would cost only 27.8 dollars to make on your own. It is a very simple, reproducible project. It is also a very cool project; this project can also control your local and YouTube music. Very, very cool project to make!
 
 ## Pictures!
 ### Zine - 
@@ -31,7 +31,7 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 |------|---------|----------|------------------|------|-------------|
 | KY-040 Rotary Encoder Module | The Volume control. | 1 | $2.00 | [View Product](https://www.amazon.in/Electronic-Spices-KY-040-encoder-development/dp/B0BHWCWJDR?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=AJ6SIZC8YQDZX) | Amazon |
 | M3x4 mm Brass Heat Set Threaded Round Insert Nut (25Pcs) | Metal screw threads to hold the plastic | 1 | $4.00 | [View Product](https://robu.in/product/m3-x-4-mm-brass-heat-set-knurl-threaded-round-insert-nut-25-pcs/) | Robu |
-| Cherry MX RGB Switch | Provides user input by completing a connection while pressed | 1 | $5.00 | [View Product](https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/cherry-mx-rgb-switch/?attribute_pa_cherry-mx=black-rgb) | Meckeys |
+| Cherry MX RGB Switch | Provides user input by completing a connection while pressed | 10 (Minimum) | $5.00 | [View Product](https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/cherry-mx-rgb-switch/?attribute_pa_cherry-mx=black-rgb) | Meckeys |
 | Blue 1.8 Inch ST7735 TFT LCD Module (128×160) | Display for current track and UI elements | 1 | $5.00 | [View Product](https://robu.in/product/blue-1-8-inch-st7735-tft-lcd-module-with-4-io-128160/) | Robu |
 | 7Semi ESP32-S3-Dev-BoardC-1-N4R2 | Core computation, handles images and acts as WiFi bridge | 1 | $11.80 | [View Product](https://7semi.com/esp32-s3-dev-board-wifi-bluetooth-dualusb/) | 7Semi |
 | **Total** |  | **5** | **$27.80** |  |  |
