@@ -18,8 +18,9 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 
 ### The CAD - 
 
-<img width="1919" height="1078" alt="Screenshot 2026-04-30 104950" src="https://github.com/user-attachments/assets/3f708f68-7e1f-4175-9d9d-8ce4475c956d" />
-<img width="939" height="636" alt="Screenshot 2026-04-30 105559" src="https://github.com/user-attachments/assets/68b331fb-4004-47f1-bab8-49f42fb98899" />
+<img width="1420" height="632" alt="Print" src="https://github.com/user-attachments/assets/d8d2c328-65bd-467a-a508-0476a27bb1fb" />
+
+<img width="620" height="299" alt="image" src="https://github.com/user-attachments/assets/9f944572-5289-4572-ace8-a4e02172f9fe" />
 
 ### The Wiring Diagram - 
 
@@ -30,11 +31,13 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 | Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
 |------|---------|----------|------------------|------|-------------|
 | KY-040 Rotary Encoder Module | The Volume control. | 1 | $2.00 | [View Product](https://www.amazon.in/Electronic-Spices-KY-040-encoder-development/dp/B0BHWCWJDR?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=AJ6SIZC8YQDZX) | Amazon |
-| M3x4 mm Brass Heat Set Threaded Round Insert Nut (25Pcs) | Metal screw threads to hold the plastic | 1 | $4.00 | [View Product](https://robu.in/product/m3-x-4-mm-brass-heat-set-knurl-threaded-round-insert-nut-25-pcs/) | Robu |
+| M3x4 mm Brass Heat Set Threaded Round Insert Nut (25Pcs) | Metal screw threads to hold the plastic | 1 Pack | $4.00 | [View Product](https://robu.in/product/m3-x-4-mm-brass-heat-set-knurl-threaded-round-insert-nut-25-pcs/) | Robu |
+| M3x4 mm Brass Heat Set Threaded Round Insert Nut (25Pcs) | Metal screw threads of M2 dia to hold the plastic | 1 Pack | $15.00 | [View Product](https://www.desertcart.in/products/839152070-m-meterxity-20-pack-wood-screws-m2-x-18mm-brass) | Desertcart |
 | Cherry MX RGB Switch | Provides user input by completing a connection while pressed | 10 (Minimum) | $5.00 | [View Product](https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/cherry-mx-rgb-switch/?attribute_pa_cherry-mx=black-rgb) | Meckeys |
 | Blue 1.8 Inch ST7735 TFT LCD Module (128×160) | Display for current track and UI elements | 1 | $5.00 | [View Product](https://robu.in/product/blue-1-8-inch-st7735-tft-lcd-module-with-4-io-128160/) | Robu |
 | 7Semi ESP32-S3-Dev-BoardC-1-N4R2 | Core computation, handles images and acts as WiFi bridge | 1 | $11.80 | [View Product](https://7semi.com/esp32-s3-dev-board-wifi-bluetooth-dualusb/) | 7Semi |
-| **Total** |  | **5** | **$27.80** |  |  |
+| 4mm Diameter Neodymium Disc Magnets | Lid to Case attachment (use glue if no adhesive side) | 10 | $0.5 | [View Product](https://onlyscrews.in/products/4mm-diameter-neodymium-disc-magnets-n35) | OnlyScrews |
+| **Total** |  |  | **$43.30** |  |  |
 
 ## How to Build
  
