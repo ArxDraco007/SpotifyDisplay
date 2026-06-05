@@ -46,6 +46,7 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 - Open case.f3d or lid.f3d in Autodesk Fusion 360, or use the case.step files in any CAD software/slicer directly.
 - Print the case and lid in your filament of choice (PLA works fine). The design has cutouts for the ST7735 display, the Cherry MX switch, and the rotary encoder.
 - Once printed, press the M3x4mm brass heat-set inserts into the screw holes on the case using a soldering iron. This gives you durable metal threads so the lid can be screwed on and off without stripping the plastic.
+- Any parts that are floating should be stuck using a neodymium magnet.
 ### 2. Assemble the PCB
 - The KiCad project files (SpotifyPCB.kicad_pcb, .kicad_sch, .kicad_pro, .kicad_prl) contain the full schematic and PCB layout.
 - Refer to the **Wiring Diagram** above and the schematic for exact pin connections.
