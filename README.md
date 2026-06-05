@@ -21,7 +21,7 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 <img width="1420" height="632" alt="Print" src="https://github.com/user-attachments/assets/d8d2c328-65bd-467a-a508-0476a27bb1fb" />
 
 <img width="620" height="299" alt="image" src="https://github.com/user-attachments/assets/9f944572-5289-4572-ace8-a4e02172f9fe" />
-**Parts stuck using an adhesive-neodymium magnet.**
+**All individual components must be stuck using an adhesive-neodymium magnet.**
 ### The Wiring Diagram - 
 
 <img width="1425" height="806" alt="WiringDiagram" src="https://github.com/user-attachments/assets/f93078cc-a7a3-4d6f-9e4c-01bbece0686c" />
@@ -47,6 +47,7 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 - Print the case and lid in your filament of choice (PLA works fine). The design has cutouts for the ST7735 display, the Cherry MX switch, and the rotary encoder.
 - Once printed, press the M3x4mm brass heat-set inserts into the screw holes on the case using a soldering iron. This gives you durable metal threads so the lid can be screwed on and off without stripping the plastic.
 - **Any parts that are floating should be stuck using a neodymium magnet.**
+- **All individual components must be stuck using an adhesive-neodymium magnet, if screws are not used.**
 ### 2. Assemble the PCB
 - The KiCad project files (SpotifyPCB.kicad_pcb, .kicad_sch, .kicad_pro, .kicad_prl) contain the full schematic and PCB layout.
 - Refer to the **Wiring Diagram** above and the schematic for exact pin connections.
