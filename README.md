@@ -34,7 +34,8 @@ The connection between the ESP32 and the PC, and the programming for the ESP32.
 | Cherry MX RGB Switch | Provides user input by completing a connection while pressed | 10 (Minimum) | $5.00 | [View Product](https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/cherry-mx-rgb-switch/?attribute_pa_cherry-mx=black-rgb) | Meckeys |
 | Blue 1.8 Inch ST7735 TFT LCD Module (128×160) | Display for current track and UI elements | 1 | $5.00 | [View Product](https://robu.in/product/blue-1-8-inch-st7735-tft-lcd-module-with-4-io-128160/) | Robu |
 | 7Semi ESP32-S3-Dev-BoardC-1-N4R2 | Core computation, handles images and acts as WiFi bridge | 1 | $11.80 | [View Product](https://7semi.com/esp32-s3-dev-board-wifi-bluetooth-dualusb/) | 7Semi |
-| **Total** |  | **5** | **$27.80** |  |  |
+| 4mm Diameter Neodymium Disc Magnets | Lid to Case attachment (use glue if no adhesive side) | 10 | $0.5 | [View Product](https://onlyscrews.in/products/4mm-diameter-neodymium-disc-magnets-n35) | OnlyScrews |
+| **Total** |  | **5** | **$28.30** |  |  |
 
 ## How to Build
  
